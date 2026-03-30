@@ -45,13 +45,8 @@
         M.Sc. candidate at Montclair State University.
       </p>
       <div class="hero-tags">
-        <span>ArcGIS Pro</span>
-        <span>Remote Sensing</span>
-        <span>Weighted Overlay</span>
-        <span>Raster Analysis</span>
-        <span>Cartographic Design</span>
-        <span>QGIS</span>
-        <span>Clean Energy GIS</span>
+        <span>ArcGIS Pro</span><span>Remote Sensing</span><span>Weighted Overlay</span>
+        <span>Raster Analysis</span><span>Cartographic Design</span><span>QGIS</span><span>Clean Energy GIS</span>
       </div>
       <div class="hero-actions">
         <a href="#projects" class="btn btn-primary">View Projects</a>
@@ -72,57 +67,48 @@
         <h2>Geospatial Analyst with a<br>Foundation in <span class="accent">Earth Science</span></h2>
       </div>
       <div class="about-grid">
-        <div class="about-text">
-          <p>
-            I hold an M.Sc. in Earth and Environmental Sciences from Montclair State University and a B.Tech in Applied Geology, complemented by an M.Sc. in Project Management. My GIS work spans satellite imagery analysis, raster classification, weighted overlay modeling, and cartographic layout design, applied across environmental, geological, and hazard mapping contexts using ArcGIS Pro and QGIS.
-          </p>
-          <p>
-            I bring a combined background in spatial analysis, earth science, and project delivery with research experience in clean energy, air quality, and volcanic hazard mapping.
-          </p>
+        <div class="about-left">
+          <div class="profile-photo-wrap">
+            <img src="images/profile.jpeg" alt="Mercy Atolagbe" class="profile-photo" />
+          </div>
           <div class="about-stats">
-            <div class="stat">
-              <span class="stat-num">9+</span>
-              <span class="stat-label">GIS Projects</span>
-            </div>
-            <div class="stat">
-              <span class="stat-num">3</span>
-              <span class="stat-label">Graduate Degrees</span>
-            </div>
-            <div class="stat">
-              <span class="stat-num">3.9</span>
-              <span class="stat-label">GPA</span>
-            </div>
-            <div class="stat">
-              <span class="stat-num">1</span>
-              <span class="stat-label">Publication</span>
-            </div>
+            <div class="stat"><span class="stat-num">9+</span><span class="stat-label">GIS Projects</span></div>
+            <div class="stat"><span class="stat-num">3</span><span class="stat-label">Degrees</span></div>
+            <div class="stat"><span class="stat-num">3.9</span><span class="stat-label">GPA</span></div>
+            <div class="stat"><span class="stat-num">1</span><span class="stat-label">Publication</span></div>
           </div>
         </div>
-        <div class="about-edu">
-          <h3 class="about-edu-title">Education</h3>
-          <div class="edu-card">
-            <div class="edu-icon">M.S.</div>
-            <div class="edu-info">
-              <strong>Earth and Environmental Sciences</strong>
-              <span>Montclair State University, NJ</span>
-              <span class="edu-date">May 2026 &nbsp;·&nbsp; GPA 3.9/4.0</span>
-              <em>Thesis: Estimating GSHP Adoption Potential in New Jersey</em>
-            </div>
+        <div class="about-right">
+          <div class="about-text">
+            <p>I hold an M.Sc. in Earth and Environmental Sciences from Montclair State University and a B.Tech in Applied Geology, complemented by an M.Sc. in Project Management. My GIS work spans satellite imagery analysis, raster classification, weighted overlay modeling, and cartographic layout design, applied across environmental, geological, and hazard mapping contexts using ArcGIS Pro and QGIS.</p>
+            <p>I bring a combined background in spatial analysis, earth science, and project delivery with research experience in clean energy, air quality, and volcanic hazard mapping.</p>
           </div>
-          <div class="edu-card">
-            <div class="edu-icon">M.S.</div>
-            <div class="edu-info">
-              <strong>Project Management</strong>
-              <span>Birmingham City University, UK</span>
-              <span class="edu-date">Jan 2023</span>
+          <div class="about-edu">
+            <h3 class="about-edu-title">Education</h3>
+            <div class="edu-card">
+              <div class="edu-icon">M.S.</div>
+              <div class="edu-info">
+                <strong>Earth and Environmental Sciences</strong>
+                <span>Montclair State University, NJ</span>
+                <span class="edu-date">May 2026 &nbsp;·&nbsp; GPA 3.9/4.0</span>
+                <em>Thesis: Estimating GSHP Adoption Potential in New Jersey</em>
+              </div>
             </div>
-          </div>
-          <div class="edu-card">
-            <div class="edu-icon">B.T.</div>
-            <div class="edu-info">
-              <strong>Earth Sciences (Applied Geology)</strong>
-              <span>Ladoke Akintola University of Technology</span>
-              <span class="edu-date">Mar 2015</span>
+            <div class="edu-card">
+              <div class="edu-icon">M.S.</div>
+              <div class="edu-info">
+                <strong>Project Management</strong>
+                <span>Birmingham City University, UK</span>
+                <span class="edu-date">Jan 2023</span>
+              </div>
+            </div>
+            <div class="edu-card">
+              <div class="edu-icon">B.T.</div>
+              <div class="edu-info">
+                <strong>Earth Sciences (Applied Geology)</strong>
+                <span>Ladoke Akintola University of Technology</span>
+                <span class="edu-date">Mar 2015</span>
+              </div>
             </div>
           </div>
         </div>
@@ -136,9 +122,8 @@
       <div class="section-header">
         <span class="section-label">Portfolio</span>
         <h2>GIS <span class="accent">Projects</span></h2>
+        <p class="section-sub">Click any project to view maps and details.</p>
       </div>
-
-      <!-- Filter Tabs -->
       <div class="filter-tabs">
         <button class="filter-btn active" data-filter="all">All Projects</button>
         <button class="filter-btn" data-filter="featured">Featured</button>
@@ -150,181 +135,195 @@
       <div class="projects-grid" id="projects-grid">
 
         <!-- Project 1 -->
-        <article class="project-card featured" data-category="featured spatial-analysis">
-          <div class="project-badge">
-            <span class="star">&#9733;</span> Thesis Research
+        <article class="project-card" data-category="featured spatial-analysis"
+          data-images="images/gshp-suitability.jpeg,images/gshp-thermal.jpeg,images/gshp-permits-1-2-family.jpeg,images/gshp-permits-multifamily.jpeg,images/gshp-permits-per-sqmi.jpeg,images/gshp-income.jpeg,images/gshp-population.jpeg,images/gshp-poster.jpeg"
+          data-captions="GSHP Suitability Map,Bedrock Thermal Conductivity,Building Permits – 1&2 Family,Building Permits – Multifamily,Permits per Sq Mi by County,Median Household Income,Population Density,Research Poster – MSU STEM Summit">
+          <div class="card-thumb">
+            <img src="images/gshp-suitability.jpeg" alt="GSHP Suitability Map" />
+            <div class="card-thumb-overlay">
+              <span class="img-count-badge">8 maps</span>
+              <span class="view-label">View Project</span>
+            </div>
           </div>
-          <div class="project-meta">
-            <span class="project-type">Multi-Criteria GIS Analysis &nbsp;·&nbsp; New Jersey &nbsp;·&nbsp; 2025–2026</span>
-          </div>
-          <h3 class="project-title">Spatial Analysis of Residential Ground Source Heat Pump Adoption Potential in New Jersey</h3>
-          <p class="project-desc">
-            Developed a GIS-based multi-criteria weighted overlay analysis to identify priority counties for GSHP deployment in new residential construction across all 21 New Jersey counties. Bedrock thermal conductivity values were assigned to 3,563 geology polygons and integrated with building permit density, median household income, and population density — each independently classified on a 1-to-4 suitability scale in ArcGIS Pro.
-          </p>
-          <div class="project-finding">
-            <span class="finding-label">Key Finding</span>
-            <p>Eight high-suitability counties are concentrated in northern New Jersey, where construction activity, income, and population density converge. Economic and demographic conditions — not geology — are the binding constraints on adoption. 72.6% of NJ bedrock shows Excellent thermal conductivity, confirming that geological capacity is broadly favorable statewide.</p>
-          </div>
-          <div class="project-tools">
-            <span>ArcGIS Pro</span>
-            <span>Weighted Overlay</span>
-            <span>Raster Reclassification</span>
-            <span>Zonal Statistics</span>
-            <span>NJ DCA 2024</span>
-            <span>ACS Census</span>
-            <span>NJDEP Geology</span>
+          <div class="card-body">
+            <div class="project-badge"><span class="star">&#9733;</span> Thesis Research</div>
+            <div class="project-meta">Multi-Criteria GIS Analysis &nbsp;·&nbsp; New Jersey &nbsp;·&nbsp; 2025–2026</div>
+            <h3 class="project-title">Spatial Analysis of Residential GSHP Adoption Potential in New Jersey</h3>
+            <p class="project-desc">GIS-based multi-criteria weighted overlay analysis identifying priority counties for Ground Source Heat Pump deployment across all 21 NJ counties, integrating bedrock thermal conductivity, building permits, income, and population density.</p>
+            <div class="project-finding">
+              <span class="finding-label">Key Finding</span>
+              <p>72.6% of NJ bedrock shows Excellent thermal conductivity — economic factors, not geology, are the binding constraint on GSHP adoption.</p>
+            </div>
+            <div class="project-tools">
+              <span>ArcGIS Pro</span><span>Weighted Overlay</span><span>Raster Reclassification</span><span>Zonal Statistics</span><span>ACS Census</span><span>NJDEP Geology</span>
+            </div>
           </div>
         </article>
 
         <!-- Project 2 -->
-        <article class="project-card featured" data-category="featured spatial-analysis">
-          <div class="project-meta">
-            <span class="project-type">Spatial Analysis &nbsp;·&nbsp; IDW Interpolation &nbsp;·&nbsp; 2025</span>
+        <article class="project-card" data-category="featured spatial-analysis"
+          data-images="images/aqi-2020.png,images/aqi-2024.png"
+          data-captions="NJ Air Quality Index – 2020,NJ Air Quality Index – 2024">
+          <div class="card-thumb">
+            <img src="images/aqi-2020.png" alt="NJ AQI 2020" />
+            <div class="card-thumb-overlay">
+              <span class="img-count-badge">2 maps</span>
+              <span class="view-label">View Project</span>
+            </div>
           </div>
-          <h3 class="project-title">Air Quality Index Changes in New Jersey, 2020–2024</h3>
-          <p class="project-desc">
-            Analyzed the spatial distribution of annual maximum AQI values across New Jersey counties for 2020 and 2024 using Inverse Distance Weighting interpolation on EPA monitoring station data. The two surfaces are mapped at the same scale and color range for direct year-on-year comparison.
-          </p>
-          <div class="project-finding">
-            <span class="finding-label">Key Finding</span>
-            <p>The northern NJ counties Bergen, Essex, and Passaic show persistently elevated AQI in both years, consistent with urban density and traffic emissions. Southern counties show measurable improvement between 2020 and 2024.</p>
-          </div>
-          <div class="project-tools">
-            <span>QGIS</span>
-            <span>IDW Interpolation</span>
-            <span>EPA Annual AQI Data</span>
-            <span>Graduated Color Ramp</span>
-            <span>NJ County Boundary</span>
+          <div class="card-body">
+            <div class="project-meta">Spatial Analysis &nbsp;·&nbsp; IDW Interpolation &nbsp;·&nbsp; 2025</div>
+            <h3 class="project-title">Air Quality Index Changes in New Jersey, 2020–2024</h3>
+            <p class="project-desc">Analyzed spatial distribution of annual maximum AQI values across NJ counties using IDW interpolation on EPA monitoring station data, mapped at identical scale for direct year-on-year comparison.</p>
+            <div class="project-finding">
+              <span class="finding-label">Key Finding</span>
+              <p>Northern NJ counties (Bergen, Essex, Passaic) show persistently elevated AQI; southern counties show measurable improvement 2020–2024.</p>
+            </div>
+            <div class="project-tools">
+              <span>QGIS</span><span>IDW Interpolation</span><span>EPA AQI Data</span><span>Graduated Color Ramp</span><span>NJ County Boundary</span>
+            </div>
           </div>
         </article>
 
         <!-- Project 3 -->
-        <article class="project-card" data-category="remote-sensing">
-          <div class="project-meta">
-            <span class="project-type">Remote Sensing &nbsp;·&nbsp; Satellite Imagery</span>
+        <article class="project-card" data-category="remote-sensing"
+          data-images="images/kilauea-satellite.png,images/kilauea-arcgis.png"
+          data-captions="Kilauea Lava Flow – SWIR Satellite Imagery,ArcGIS Pro Time-Enabled Image Service">
+          <div class="card-thumb">
+            <img src="images/kilauea-satellite.png" alt="Kilauea 2018 Eruption" />
+            <div class="card-thumb-overlay">
+              <span class="img-count-badge">2 images</span>
+              <span class="view-label">View Project</span>
+            </div>
           </div>
-          <h3 class="project-title">Kilauea 2018 Eruption — Landsat Time Series</h3>
-          <p class="project-desc">
-            Analyzed multi-date Landsat 8 imagery across four acquisition dates from March 2018 to February 2019, applying Natural Color and SWIR band combinations to distinguish active lava flows, cooled basalt, and volcanic plume extent. Used the Image Service Layer time-enabled feature and Swipe tool in ArcGIS Pro to compare conditions across dates.
-          </p>
-          <div class="project-tools">
-            <span>ArcGIS Pro</span>
-            <span>Landsat 8</span>
-            <span>SWIR Band Combination</span>
-            <span>Image Service Layer</span>
-            <span>Time-Enabled Imagery</span>
+          <div class="card-body">
+            <div class="project-meta">Remote Sensing &nbsp;·&nbsp; Satellite Imagery</div>
+            <h3 class="project-title">Kilauea 2018 Eruption — Landsat Time Series</h3>
+            <p class="project-desc">Analyzed multi-date Landsat 8 imagery across four acquisition dates (Mar 2018–Feb 2019), applying Natural Color and SWIR band combinations to distinguish active lava flows, cooled basalt, and volcanic plume extent.</p>
+            <div class="project-tools">
+              <span>ArcGIS Pro</span><span>Landsat 8</span><span>SWIR Band Combination</span><span>Image Service Layer</span><span>Time-Enabled Imagery</span>
+            </div>
           </div>
         </article>
 
         <!-- Project 4 -->
-        <article class="project-card" data-category="remote-sensing spatial-analysis">
-          <div class="project-meta">
-            <span class="project-type">Change Detection &nbsp;·&nbsp; Burn Severity Mapping</span>
+        <article class="project-card" data-category="remote-sensing spatial-analysis"
+          data-images="images/montana-dnbr.png"
+          data-captions="dNBR Burn Severity Classification – Glacier National Park">
+          <div class="card-thumb">
+            <img src="images/montana-dnbr.png" alt="Montana Wildfire dNBR" />
+            <div class="card-thumb-overlay">
+              <span class="view-label">View Project</span>
+            </div>
           </div>
-          <h3 class="project-title">Montana Wildfire Burn Severity dNBR Analysis, Glacier National Park</h3>
-          <p class="project-desc">
-            Calculated the differenced Normalized Burn Ratio from pre-fire and post-fire Landsat 8 imagery to classify wildfire burn severity across Glacier National Park, Montana. Vectorized fire perimeter polygons from the raster burn extent and worked through the ArcGIS Pro Suitability Modeler and web layer publishing workflow.
-          </p>
-          <div class="project-tools">
-            <span>ArcGIS Pro</span>
-            <span>Landsat 8</span>
-            <span>Raster Calculator</span>
-            <span>dNBR</span>
-            <span>Burn Severity Classification</span>
+          <div class="card-body">
+            <div class="project-meta">Change Detection &nbsp;·&nbsp; Burn Severity Mapping</div>
+            <h3 class="project-title">Montana Wildfire Burn Severity dNBR Analysis, Glacier National Park</h3>
+            <p class="project-desc">Calculated the differenced Normalized Burn Ratio from pre- and post-fire Landsat 8 imagery to classify wildfire burn severity. Vectorized fire perimeter polygons and published via ArcGIS Pro Suitability Modeler workflow.</p>
+            <div class="project-tools">
+              <span>ArcGIS Pro</span><span>Landsat 8</span><span>Raster Calculator</span><span>dNBR</span><span>Burn Severity Classification</span>
+            </div>
           </div>
         </article>
 
         <!-- Project 5 -->
-        <article class="project-card" data-category="cartography">
-          <div class="project-meta">
-            <span class="project-type">Cartographic Design &nbsp;·&nbsp; Map Layout</span>
+        <article class="project-card" data-category="cartography"
+          data-images="images/pnw-hazards.png"
+          data-captions="Pacific Northwest Volcanic Hazards – Print-Ready Map Layout">
+          <div class="card-thumb">
+            <img src="images/pnw-hazards.png" alt="Pacific NW Volcanic Hazards Map" />
+            <div class="card-thumb-overlay">
+              <span class="view-label">View Project</span>
+            </div>
           </div>
-          <h3 class="project-title">Pacific Northwest Volcanic Hazards Map</h3>
-          <p class="project-desc">
-            Produced a complete print-ready cartographic layout in ArcGIS Pro Layout View incorporating seven data layers — volcanoes graduated by eruption frequency, counties by population density, hospitals, rivers, and highways labeled using a custom Arcade expression. Includes a classified legend, scale bar, north arrow, and USA locator inset map.
-          </p>
-          <div class="project-tools">
-            <span>ArcGIS Pro</span>
-            <span>Layout View</span>
-            <span>Arcade Expressions</span>
-            <span>Graduated Symbols</span>
-            <span>Inset Map Frame</span>
-            <span>Legend Design</span>
+          <div class="card-body">
+            <div class="project-meta">Cartographic Design &nbsp;·&nbsp; Map Layout</div>
+            <h3 class="project-title">Pacific Northwest Volcanic Hazards Map</h3>
+            <p class="project-desc">Complete print-ready cartographic layout in ArcGIS Pro with seven data layers — volcanoes graduated by eruption frequency, counties by population density, hospitals, rivers, and highways labeled using custom Arcade expressions.</p>
+            <div class="project-tools">
+              <span>ArcGIS Pro</span><span>Layout View</span><span>Arcade Expressions</span><span>Graduated Symbols</span><span>Inset Map Frame</span><span>Legend Design</span>
+            </div>
           </div>
         </article>
 
         <!-- Project 6 -->
-        <article class="project-card" data-category="spatial-analysis">
-          <div class="project-meta">
-            <span class="project-type">Raster Analysis &nbsp;·&nbsp; Geology</span>
+        <article class="project-card" data-category="spatial-analysis"
+          data-images="images/crater-lake.png"
+          data-captions="Crater Lake – Rock Type Raster, DEM & Hillshade Stack">
+          <div class="card-thumb">
+            <img src="images/crater-lake.png" alt="Crater Lake DEM Analysis" />
+            <div class="card-thumb-overlay">
+              <span class="view-label">View Project</span>
+            </div>
           </div>
-          <h3 class="project-title">Crater Lake, Oregon — Rock Type and DEM Analysis</h3>
-          <p class="project-desc">
-            Stacked and visualized four raster datasets for the Crater Lake volcanic caldera: a classified rock type raster, a 30-meter DEM, a hillshade layer, and Landsat imagery. The multi-layer display reveals the spatial relationship between geologic unit distribution and caldera topography.
-          </p>
-          <div class="project-tools">
-            <span>ArcGIS Pro</span>
-            <span>DEM 30m</span>
-            <span>Hillshade</span>
-            <span>Rock Type Raster</span>
-            <span>Landsat</span>
-            <span>Multi-Layer Display</span>
+          <div class="card-body">
+            <div class="project-meta">Raster Analysis &nbsp;·&nbsp; Geology</div>
+            <h3 class="project-title">Crater Lake, Oregon — Rock Type and DEM Analysis</h3>
+            <p class="project-desc">Stacked and visualized four raster datasets for the Crater Lake volcanic caldera: classified rock type raster, 30m DEM, hillshade layer, and Landsat imagery, revealing the spatial relationship between geology and caldera topography.</p>
+            <div class="project-tools">
+              <span>ArcGIS Pro</span><span>DEM 30m</span><span>Hillshade</span><span>Rock Type Raster</span><span>Landsat</span>
+            </div>
           </div>
         </article>
 
         <!-- Project 7 -->
-        <article class="project-card" data-category="remote-sensing cartography">
-          <div class="project-meta">
-            <span class="project-type">Historical GIS &nbsp;·&nbsp; Imagery Analysis</span>
+        <article class="project-card" data-category="remote-sensing cartography"
+          data-images="images/hallstatt-historical.png,images/hallstatt-nir.png,images/hallstatt-swipe.png"
+          data-captions="Hallstatt – Historical Cadastral Overlay,Hallstatt – NIR False-Color Composite,Hallstatt – Topographic Swipe View">
+          <div class="card-thumb">
+            <img src="images/hallstatt-historical.png" alt="Hallstatt Historical GIS" />
+            <div class="card-thumb-overlay">
+              <span class="img-count-badge">3 images</span>
+              <span class="view-label">View Project</span>
+            </div>
           </div>
-          <h3 class="project-title">Hallstatt, Austria — NIR Imagery &amp; Historical Cadastral Analysis</h3>
-          <p class="project-desc">
-            Integrated a historical cadastral drawing with modern near-infrared satellite imagery and topographic data for the UNESCO World Heritage site of Hallstatt, Austria. Applied NIR false-color compositing for land cover interpretation and configured Arcade label expressions on boundary polygon features.
-          </p>
-          <div class="project-tools">
-            <span>ArcGIS Pro</span>
-            <span>NIR False Color</span>
-            <span>Historical JP2 Imagery</span>
-            <span>Arcade Expressions</span>
-            <span>DEM &amp; DSM</span>
-            <span>Slope</span>
+          <div class="card-body">
+            <div class="project-meta">Historical GIS &nbsp;·&nbsp; Imagery Analysis</div>
+            <h3 class="project-title">Hallstatt, Austria — NIR Imagery &amp; Historical Cadastral Analysis</h3>
+            <p class="project-desc">Integrated historical cadastral drawing with modern NIR satellite imagery and topographic data for the UNESCO World Heritage site of Hallstatt, Austria. Applied NIR false-color compositing and Arcade label expressions.</p>
+            <div class="project-tools">
+              <span>ArcGIS Pro</span><span>NIR False Color</span><span>Historical JP2 Imagery</span><span>Arcade Expressions</span><span>DEM &amp; DSM</span><span>Slope</span>
+            </div>
           </div>
         </article>
 
         <!-- Project 8 -->
-        <article class="project-card" data-category="spatial-analysis">
-          <div class="project-meta">
-            <span class="project-type">Hydrology &nbsp;·&nbsp; Watershed Analysis</span>
+        <article class="project-card" data-category="spatial-analysis"
+          data-images="images/blackhills-watershed.png"
+          data-captions="Black Hills – Climate Stations & Watershed Precipitation">
+          <div class="card-thumb">
+            <img src="images/blackhills-watershed.png" alt="Black Hills Watershed" />
+            <div class="card-thumb-overlay">
+              <span class="view-label">View Project</span>
+            </div>
           </div>
-          <h3 class="project-title">Black Hills, South Dakota — Climate Stations &amp; Watershed Precipitation</h3>
-          <p class="project-desc">
-            Mapped a climate monitoring station network against delineated watershed boundaries and computed watershed-level precipitation volume and area-normalized precipitation metrics using zonal statistics. Results displayed using a graduated raster mask alongside watershed polygon boundaries.
-          </p>
-          <div class="project-tools">
-            <span>ArcGIS Pro</span>
-            <span>Zonal Statistics</span>
-            <span>Watershed Polygons</span>
-            <span>Precipitation Raster</span>
-            <span>Graduated Color Symbology</span>
+          <div class="card-body">
+            <div class="project-meta">Hydrology &nbsp;·&nbsp; Watershed Analysis</div>
+            <h3 class="project-title">Black Hills, SD — Climate Stations &amp; Watershed Precipitation</h3>
+            <p class="project-desc">Mapped climate monitoring station network against delineated watershed boundaries and computed watershed-level precipitation volume and area-normalized metrics using zonal statistics.</p>
+            <div class="project-tools">
+              <span>ArcGIS Pro</span><span>Zonal Statistics</span><span>Watershed Polygons</span><span>Precipitation Raster</span><span>Graduated Color Symbology</span>
+            </div>
           </div>
         </article>
 
         <!-- Project 9 -->
-        <article class="project-card" data-category="remote-sensing spatial-analysis">
-          <div class="project-meta">
-            <span class="project-type">Image Classification &nbsp;·&nbsp; Land Cover</span>
+        <article class="project-card" data-category="remote-sensing spatial-analysis"
+          data-images="images/louisville-imperviousness.png"
+          data-captions="Louisville, KY – Supervised Surface Imperviousness Classification">
+          <div class="card-thumb">
+            <img src="images/louisville-imperviousness.png" alt="Louisville Land Cover Classification" />
+            <div class="card-thumb-overlay">
+              <span class="view-label">View Project</span>
+            </div>
           </div>
-          <h3 class="project-title">Louisville, KY — Surface Imperviousness Classification</h3>
-          <p class="project-desc">
-            Performed supervised image classification on a high-resolution aerial image to map land cover across a residential subdivision in Louisville, Kentucky. Classified surfaces into seven categories including roads, rooftops, driveways, grass, trees, bare earth, and water. Digitized parcel boundaries as a reference layer and compared classification outputs across multiple preview and merged class iterations.
-          </p>
-          <div class="project-tools">
-            <span>ArcGIS Pro</span>
-            <span>Supervised Classification</span>
-            <span>Land Cover</span>
-            <span>Feature Digitizing</span>
-            <span>Raster Reclassification</span>
-            <span>Aerial Imagery</span>
+          <div class="card-body">
+            <div class="project-meta">Image Classification &nbsp;·&nbsp; Land Cover</div>
+            <h3 class="project-title">Louisville, KY — Surface Imperviousness Classification</h3>
+            <p class="project-desc">Supervised image classification on high-resolution aerial imagery mapping seven land cover classes — roads, rooftops, driveways, grass, trees, bare earth, and water — with digitized parcel boundaries as reference.</p>
+            <div class="project-tools">
+              <span>ArcGIS Pro</span><span>Supervised Classification</span><span>Land Cover</span><span>Feature Digitizing</span><span>Raster Reclassification</span>
+            </div>
           </div>
         </article>
 
@@ -340,76 +339,30 @@
         <h2>Technical <span class="accent">Skills</span></h2>
       </div>
       <div class="skills-grid">
-
         <div class="skill-group">
           <h3><span class="skill-icon">&#9783;</span> GIS Software</h3>
-          <div class="skill-tags">
-            <span>ArcGIS Pro</span>
-            <span>ArcGIS Online</span>
-            <span>QGIS</span>
-            <span>Portal for ArcGIS</span>
-          </div>
+          <div class="skill-tags"><span>ArcGIS Pro</span><span>ArcGIS Online</span><span>QGIS</span><span>Portal for ArcGIS</span></div>
         </div>
-
         <div class="skill-group">
           <h3><span class="skill-icon">&#9670;</span> Spatial Analysis</h3>
-          <div class="skill-tags">
-            <span>Weighted Overlay</span>
-            <span>Raster Reclassification</span>
-            <span>IDW Interpolation</span>
-            <span>Zonal Statistics</span>
-            <span>Multi-Criteria Decision Analysis</span>
-            <span>Change Detection</span>
-            <span>Suitability Modeling</span>
-          </div>
+          <div class="skill-tags"><span>Weighted Overlay</span><span>Raster Reclassification</span><span>IDW Interpolation</span><span>Zonal Statistics</span><span>Multi-Criteria Decision Analysis</span><span>Change Detection</span><span>Suitability Modeling</span></div>
         </div>
-
         <div class="skill-group">
           <h3><span class="skill-icon">&#9728;</span> Remote Sensing</h3>
-          <div class="skill-tags">
-            <span>Landsat 8/9</span>
-            <span>SWIR &amp; NIR Band Combinations</span>
-            <span>NBR and dNBR</span>
-            <span>Image Service Layers</span>
-            <span>Time-Enabled Imagery</span>
-          </div>
+          <div class="skill-tags"><span>Landsat 8/9</span><span>SWIR &amp; NIR Band Combinations</span><span>NBR and dNBR</span><span>Image Service Layers</span><span>Time-Enabled Imagery</span></div>
         </div>
-
         <div class="skill-group">
           <h3><span class="skill-icon">&#9776;</span> Cartography</h3>
-          <div class="skill-tags">
-            <span>Map Layout Design</span>
-            <span>Arcade Label Expressions</span>
-            <span>Graduated &amp; Classified Symbology</span>
-            <span>Legend Design</span>
-            <span>Inset Map Frames</span>
-          </div>
+          <div class="skill-tags"><span>Map Layout Design</span><span>Arcade Label Expressions</span><span>Graduated &amp; Classified Symbology</span><span>Legend Design</span><span>Inset Map Frames</span></div>
         </div>
-
         <div class="skill-group">
           <h3><span class="skill-icon">&#9650;</span> Data &amp; Analysis</h3>
-          <div class="skill-tags">
-            <span>U.S. Census &amp; EPA Datasets</span>
-            <span>Attribute Queries &amp; Joins</span>
-            <span>Power BI</span>
-            <span>SimaPro LCA</span>
-            <span>Python (basic)</span>
-            <span>Microsoft Excel</span>
-          </div>
+          <div class="skill-tags"><span>U.S. Census &amp; EPA Datasets</span><span>Attribute Queries &amp; Joins</span><span>Power BI</span><span>SimaPro LCA</span><span>Python (basic)</span><span>Microsoft Excel</span></div>
         </div>
-
         <div class="skill-group">
           <h3><span class="skill-icon">&#9679;</span> Additional</h3>
-          <div class="skill-tags">
-            <span>Life Cycle Assessment</span>
-            <span>Offshore Wind Farm Analysis</span>
-            <span>GSHP Systems</span>
-            <span>Jira / Confluence</span>
-            <span>Agile / Scrum</span>
-            <span>Visio &amp; Lucid Chart</span>
-          </div>
+          <div class="skill-tags"><span>Life Cycle Assessment</span><span>Offshore Wind Farm Analysis</span><span>GSHP Systems</span><span>Jira / Confluence</span><span>Agile / Scrum</span><span>Visio &amp; Lucid Chart</span></div>
         </div>
-
       </div>
     </div>
   </section>
@@ -422,15 +375,11 @@
         <h2>Work <span class="accent">Experience</span></h2>
       </div>
       <div class="timeline">
-
         <div class="timeline-item">
           <div class="timeline-dot"></div>
           <div class="timeline-content">
             <div class="timeline-header">
-              <div>
-                <h3>Graduate Assistant / Teaching Assistant</h3>
-                <span class="timeline-org">Montclair State University, Montclair, NJ</span>
-              </div>
+              <div><h3>Graduate Assistant / Teaching Assistant</h3><span class="timeline-org">Montclair State University, Montclair, NJ</span></div>
               <span class="timeline-date">Jan 2025 – Present</span>
             </div>
             <ul>
@@ -441,68 +390,45 @@
             </ul>
           </div>
         </div>
-
         <div class="timeline-item">
           <div class="timeline-dot"></div>
           <div class="timeline-content">
             <div class="timeline-header">
-              <div>
-                <h3>Business Analyst / Project Officer</h3>
-                <span class="timeline-org">PeopleAmp Tech Solutions, Birmingham, UK</span>
-              </div>
+              <div><h3>Business Analyst / Project Officer</h3><span class="timeline-org">PeopleAmp Tech Solutions, Birmingham, UK</span></div>
               <span class="timeline-date">Mar 2023 – Feb 2024</span>
             </div>
             <ul>
-              <li>Led BA activities in end-to-end delivery of a digital omnichannel platform implementation for SMBs</li>
+              <li>Led BA activities in end-to-end delivery of a digital omnichannel platform for SMBs</li>
               <li>Organized and facilitated stakeholder workshops, fostering teamwork and engagement</li>
               <li>Generated business cases to evaluate expected benefits of strategic initiatives</li>
               <li>Increased educational platform usage by 60% through user-friendly interface design</li>
             </ul>
           </div>
         </div>
-
         <div class="timeline-item">
           <div class="timeline-dot"></div>
           <div class="timeline-content">
             <div class="timeline-header">
-              <div>
-                <h3>Scientific Officer — Engineering Option</h3>
-                <span class="timeline-org">University College Hospital, Ibadan</span>
-              </div>
+              <div><h3>Scientific Officer — Engineering Option</h3><span class="timeline-org">University College Hospital, Ibadan</span></div>
               <span class="timeline-date">Feb 2019 – Feb 2022</span>
             </div>
             <ul>
               <li>Oversaw operational functions and facility maintenance ensuring compliance with industry standards</li>
               <li>Supervised construction and maintenance projects — timelines, budgets, and safety protocols</li>
               <li>Provided comprehensive training to artisans and industrial trainees</li>
-              <li>Conducted strategic planning, monitoring, and evaluation of projects to optimize resource utilization</li>
+              <li>Conducted strategic planning, monitoring, and evaluation to optimize resource utilization</li>
             </ul>
           </div>
         </div>
-
       </div>
-
-      <!-- Research & Certifications Row -->
       <div class="extras-grid">
         <div class="extras-card">
           <h3>Research Experience</h3>
           <ul class="extras-list">
-            <li>
-              <span class="extras-year">2025</span>
-              Student Willingness to Pay for Campus Food Waste Reduction
-            </li>
-            <li>
-              <span class="extras-year">2025</span>
-              Spatial Analysis of Air Quality Index Changes in New Jersey (2020–2024)
-            </li>
-            <li>
-              <span class="extras-year">2023</span>
-              Assessing the Effect of Agile Methodologies in Managing Virtual Teams and IT Projects
-            </li>
-            <li>
-              <span class="extras-year">2022</span>
-              An Investigation into the Effect of Safety Management in Infrastructure Management
-            </li>
+            <li><span class="extras-year">2025</span>Student Willingness to Pay for Campus Food Waste Reduction</li>
+            <li><span class="extras-year">2025</span>Spatial Analysis of Air Quality Index Changes in New Jersey (2020–2024)</li>
+            <li><span class="extras-year">2023</span>Assessing the Effect of Agile Methodologies in Managing Virtual Teams and IT Projects</li>
+            <li><span class="extras-year">2022</span>An Investigation into the Effect of Safety Management in Infrastructure Management</li>
           </ul>
         </div>
         <div class="extras-card">
@@ -530,7 +456,6 @@
           </ul>
         </div>
       </div>
-
     </div>
   </section>
 
@@ -583,6 +508,30 @@
       <span>New Jersey, USA</span>
     </div>
   </footer>
+
+  <!-- ========== PROJECT MODAL ========== -->
+  <div class="modal-overlay" id="modal-overlay" role="dialog" aria-modal="true" aria-label="Project details">
+    <div class="modal">
+      <button class="modal-close" id="modal-close" aria-label="Close">&times;</button>
+      <div class="modal-gallery-pane">
+        <div class="modal-img-wrap">
+          <img src="" alt="" id="modal-img" class="modal-img" />
+          <button class="gallery-arrow gallery-prev" id="gallery-prev" aria-label="Previous image">&#8249;</button>
+          <button class="gallery-arrow gallery-next" id="gallery-next" aria-label="Next image">&#8250;</button>
+        </div>
+        <div class="modal-caption" id="modal-caption"></div>
+        <div class="modal-thumbs" id="modal-thumbs"></div>
+      </div>
+      <div class="modal-info-pane">
+        <div class="modal-badge-wrap" id="modal-badge-wrap"></div>
+        <div class="modal-meta-text" id="modal-meta-text"></div>
+        <h2 class="modal-title" id="modal-title"></h2>
+        <p class="modal-desc" id="modal-desc"></p>
+        <div class="modal-finding" id="modal-finding"></div>
+        <div class="modal-tools" id="modal-tools"></div>
+      </div>
+    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>
